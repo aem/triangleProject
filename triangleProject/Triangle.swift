@@ -16,6 +16,7 @@ public struct Triangle : Equatable {
     let right: Color
     let left: Color
     
+    // MARK: - Constructors
     /** 
     Override constructor to remove names for parameters.
     Triangle(bottom: x, left: y, right: z) will get tedious
@@ -26,6 +27,7 @@ public struct Triangle : Equatable {
         self.left = left
     }
     
+    // MARK: - Factory Methods
     /** 
     Returns a new Triangle rotated 120 degrees clockwise
     */
@@ -41,6 +43,7 @@ public struct Triangle : Equatable {
     }
 }
 
+//MARK: - Non-struct functions
 /**
 Function must be provided at the global scope to properly implement
 `Equatable` protocol. This allows us to easily compare `Triangle`s
