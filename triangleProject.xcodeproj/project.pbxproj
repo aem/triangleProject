@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F6CC25D51B2D39D600460E95 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC25D41B2D39D600460E95 /* main.swift */; };
+		F6CC25DC1B2D3A0B00460E95 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC25DB1B2D3A0B00460E95 /* Color.swift */; };
+		F6CC25DE1B2D3A1300460E95 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CC25DD1B2D3A1300460E95 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		F6CC25D11B2D39D600460E95 /* triangleProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = triangleProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CC25D41B2D39D600460E95 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F6CC25DB1B2D3A0B00460E95 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F6CC25DD1B2D3A1300460E95 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				F6CC25D41B2D39D600460E95 /* main.swift */,
+				F6CC25DB1B2D3A0B00460E95 /* Color.swift */,
+				F6CC25DD1B2D3A1300460E95 /* Triangle.swift */,
 			);
 			path = triangleProject;
 			sourceTree = "<group>";
@@ -118,7 +124,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CC25DE1B2D3A1300460E95 /* Triangle.swift in Sources */,
 				F6CC25D51B2D39D600460E95 /* main.swift in Sources */,
+				F6CC25DC1B2D3A0B00460E95 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
