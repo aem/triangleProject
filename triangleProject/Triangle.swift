@@ -11,16 +11,39 @@ import Foundation
 public struct Triangle : Equatable {
     // MARK: - Instance Variables
 
-    // all sides of `Triangle`s are immutable
+    // all sides of `Triangle`s should be immutable
     let bottom: Color
     let right: Color
     let left: Color
     
+    /** 
+    Override constructor to remove names for parameters.
+    Triangle(bottom: x, left: y, right: z) will get tedious
+    */
+    init(_ bottom: Color, _ right: Color, _ left: Color) {
+        self.bottom = bottom
+        self.right = right
+        self.left = left
+    }
+    
+    /** 
+    Returns a new Triangle rotated 120 degrees clockwise
+    */
+    public func rotateRight() -> Triangle {
+        return Triangle(self.right, self.left, self.bottom)
+    }
+    
+    /** 
+    Returns a new Triangle rotated 120 degrees counter-clockwise
+    */
+    public func rotateLeft() -> Triangle {
+        return Triangle(self.left, self.bottom, self.right)
+    }
 }
 
 /**
-    Function must be provided at the global scope to properly implement
-    `Equatable` protocol. This allows us to easily compare `Triangle`s
+Function must be provided at the global scope to properly implement
+`Equatable` protocol. This allows us to easily compare `Triangle`s
 */
 public func ==(lhs: Triangle, rhs: Triangle) -> Bool {
     return lhs.bottom == rhs.bottom &&
