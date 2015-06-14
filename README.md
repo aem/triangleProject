@@ -15,4 +15,4 @@ proved to be a pretty reasonable challenge. The other aspect of the project was
 documentation (50% of our grade. Our teacher asking us to comment our code. The
 nerve of some people...). As the functions are relatively straightforward, my 
 documentation will not be nearly as extensive as it was for this project. Sorry,
-Mr. Behnke. ¯\_(ツ)_/¯
+Mr. Behnke. ¯\\_(ツ)_/¯
